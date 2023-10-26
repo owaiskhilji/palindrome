@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 400px;
+  background-color: rgb(95, 63, 104);
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  /* margin-left: 30%;
+  margin-top: 130px; */
+  justify-content: center;
+  align-items: flex-start;
+  border: 4px solid rgb(41, 4, 51);
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  padding-top: 05px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  color: white;
+}
+#p {
+  color: white;
+}
+#get-inp {
+  font-weight: bold;
+  width: 300px;
+  height: 20px;
+  background-color: transparent;
+  color: white;
+  padding-left: 5px;
+}
+#get-inp:hover {
+  border: 2px solid rgb(86, 55, 95);
+}
+#btn {
+  height: 27px;
+  font-weight: bold;
+  background-color: rgb(62, 5, 78);
+  color: white;
+}
+#btn:hover {
+  background-color: rgb(123, 9, 155);
+  border: 3px solid rgb(41, 4, 51);
+}
+.div-p-img {
+  display: flex;
+}
+#get-p {
+  font-size: x-large;
+  color: white;
+}
+#img {
+  width: 180px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+@media (max-width: 500px) {
+  .container {
+    justify-content: center;
+    align-items: flex-start;
+    border: 10px solid rgb(41, 4, 51);
+    width: 300px;
+    height: 480px;
+    text-align: center;
+    padding-top: 05px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  #h {
+    font-size: xx-large;
+  }
+  #get-inp {
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    padding-left: 10px;
+    font-size: large;
+  }
+  #btn {
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: large;
+    height: 38px;
+  }
+  #img {
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: x-small;
+  }
+  #p {
+    font-size: large;
+  }
+  #get-p {
+    font-size: xx-large;
+  }
+}
